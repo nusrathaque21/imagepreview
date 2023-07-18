@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  overflow: hidden;
+  max-width: 100%;
+}
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 0.5em;
+  margin-bottom: 0.125rem;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+  margin-right: 10px;
+}
+.form-check1 {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+#min {
+  width: 50% !important;
+  overflow: hidden;
+  border: none;
+}
+#imgPrev {
+  max-width: 90%;
+  padding: 10px;
+  margin: 10px;
+}
+
+#gPrev {
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.img-thumbnail {
+  padding: 0.5rem;
+  background-color: var(--bs-body-bg);
+
+  border-radius: var(--bs-border-radius);
+  max-width: 25%;
+  height: auto;
+}
